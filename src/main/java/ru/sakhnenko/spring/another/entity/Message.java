@@ -1,6 +1,5 @@
 package ru.sakhnenko.spring.another.entity;
 
-import javax.persistence.Entity;
 import javax.persistence.*;
 
 @Entity

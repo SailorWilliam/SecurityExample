@@ -1,16 +1,13 @@
 package ru.sakhnenko.spring.another.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import ru.sakhnenko.spring.another.entity.Role;
 import ru.sakhnenko.spring.another.entity.User;
 import ru.sakhnenko.spring.another.repository.RoleRepository;
 import ru.sakhnenko.spring.another.repository.UserRepository;
 import ru.sakhnenko.spring.another.service.RoleService;
-import ru.sakhnenko.spring.another.service.UserService;
 
 import java.util.*;
 

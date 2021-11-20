@@ -3,7 +3,6 @@ package ru.sakhnenko.spring.another.entity;
 import org.springframework.security.core.GrantedAuthority;
 
 import javax.persistence.*;
-import javax.persistence.Transient;
 import java.util.Set;
 
 @Entity
